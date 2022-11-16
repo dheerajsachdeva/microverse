@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    
+<h1 id = "title">Survey Form</h1>
+<p id = "description"> This is a Survey Form. Pls. fill it carefully</p>
+<form id = "survey-form">
+  <label id = "name-label"> Name: </label>
+  <input id = "name" placeholder = "Enter your Name" type = "text" required> <br>
+  <label id = "email-label"> Email: </label>
+  <input id = "email" placeholder = "Enter your email here" type = "email" required><br>
+  <label id = "number-label"> Number: </label>
+  <input id = "number" placeholder = "Type number here" type = "number" min = "3" max = "7" style = "width : 170px">
+  <select id = "dropdown" >
+    <option value = "India">India </option>
+<option value = "Ethiopia">Ethiopia </option>
+      </select>
+<input type = "radio" value = " Fuad" name = "Fuad" >
+<input type = "radio" value = " Dheeraj" name = "Fuad" > 
+<input type = "checkbox" value = "friends">
+<input type = "checkbox" value = "friends1">
+<input type = "checkbox" value = "friends2">
+<input type = "checkbox" value = "friends3"><br>
+<textarea name = "Text Area" > </textarea>
+<input type = "submit" id = "submit">
+</form>
+
 </body>
 </html>

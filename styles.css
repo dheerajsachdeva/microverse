@@ -1,0 +1,10 @@
+#title{
+    border-style:  solid;
+    border-color: blue;
+    text-align : center;
+    font-size: 40px;
+  }
+  #description{
+    font-size: 14px;
+    color: brown;
+  }
